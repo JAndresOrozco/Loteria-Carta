@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="32"
+        android:layout_weight="3">
+
+        <ImageButton
+            android:id="@+id/ib1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:scaleType="fitXY"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/pino"
+            />
+
+        <ImageButton
+            android:id="@+id/ib2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:scaleType="fitXY"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/melon"/>
+
+        <ImageButton
+            android:id="@+id/ib3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="8"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/valiente"/>
+
+        <ImageButton
+            android:id="@+id/ib4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="8"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/gorro"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="12"
+        android:layout_weight="3">
+
+        <ImageButton
+            android:id="@+id/ib5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:scaleType="fitXY"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/mano" />
+
+        <ImageButton
+            android:id="@+id/ib6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/bota"/>
+
+        <ImageButton
+            android:id="@+id/ib7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/luna"/>
+
+        <ImageButton
+            android:id="@+id/ib8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/borracho"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="12"
+        android:layout_weight="3">
+
+        <ImageButton
+            android:id="@+id/ib9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/corazon"/>
+
+        <ImageButton
+            android:id="@+id/ib10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/sandia"/>
+
+        <ImageButton
+            android:id="@+id/ib11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/tambor"/>
+
+        <ImageButton
+            android:id="@+id/ib12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/camaron"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="12"
+
+        android:layout_weight="3">
+
+        <ImageButton
+            android:id="@+id/ib13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/mundo"/>
+
+        <ImageButton
+            android:id="@+id/ib14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/apache"/>
+
+        <ImageButton
+            android:id="@+id/ib15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/nopal"/>
+
+        <ImageButton
+            android:id="@+id/ib16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_weight="3"
+            android:alpha="1"
+            android:onClick="onClick"
+            android:src="@drawable/alacran"/>
+    </LinearLayout>
+
+</LinearLayout>
+
